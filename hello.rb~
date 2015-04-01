@@ -1,5 +1,17 @@
+<<<<<<< HEAD
+require 'greeter'
+
 # Default is World
-# Author: Jim Weirich
 name = ARGV.first || "World"
 
-puts "Hello, #{name}!"
+greeter = Greeter.new(name)
+puts greeter.greet
+=======
+# Default is World
+
+puts "What's your name"
+my_name = gets.strip
+
+puts "Hello, #{my_name}!"
+>>>>>>> master
+
